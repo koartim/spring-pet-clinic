@@ -18,7 +18,6 @@ public class Owner extends Person {
     private String telephone;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")
-    // when I delete an owner that is going to cascade down and delete the pets mapped to that owner
     private Set<Pet> pets = new HashSet<>();
 
     public String getAddress() {
