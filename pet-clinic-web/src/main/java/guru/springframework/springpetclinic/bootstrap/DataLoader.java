@@ -5,7 +5,7 @@ import guru.springframework.springpetclinic.services.OwnerService;
 import guru.springframework.springpetclinic.services.SpecialtyService;
 import guru.springframework.springpetclinic.services.VetService;
 import guru.springframework.springpetclinic.services.VisitService;
-import guru.springframework.springpetclinic.services.map.PetTypeService;
+import guru.springframework.springpetclinic.services.PetTypeService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -65,6 +65,8 @@ public class DataLoader implements CommandLineRunner {
         owner1.setAddress("502 Windermere Ave");
         owner1.setCity("Interlaken");
         owner1.setTelephone("9084339474");
+
+        System.out.println(Owner.builder().address("ASF").firstName("rand").lastName("man").city("ap").telephone("123"));
 
         Pet timsPet = new Pet();
         timsPet.setPetType(savedDogPetType);

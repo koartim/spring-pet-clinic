@@ -5,6 +5,7 @@ import guru.springframework.springpetclinic.model.Vet;
 import guru.springframework.springpetclinic.services.CrudService;
 import guru.springframework.springpetclinic.services.SpecialtyService;
 import guru.springframework.springpetclinic.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

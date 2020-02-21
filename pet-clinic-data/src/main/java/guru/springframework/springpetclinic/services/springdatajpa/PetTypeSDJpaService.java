@@ -2,7 +2,7 @@ package guru.springframework.springpetclinic.services.springdatajpa;
 
 import guru.springframework.springpetclinic.model.PetType;
 import guru.springframework.springpetclinic.repositories.PetTypeRepository;
-import guru.springframework.springpetclinic.services.map.PetTypeService;
+import guru.springframework.springpetclinic.services.PetTypeService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
