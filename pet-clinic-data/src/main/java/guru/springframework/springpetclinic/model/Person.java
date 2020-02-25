@@ -13,7 +13,6 @@ import javax.persistence.MappedSuperclass;
 @AllArgsConstructor
 @NoArgsConstructor
 @MappedSuperclass
-// We are never actually going to be interacting with the Person POJO so we can annotate this as a mappedsuper like BaseEntity
 public class Person extends BaseEntity {
 
     public Person(Long id, String firstName, String lastName) {
